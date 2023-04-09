@@ -1,3 +1,3 @@
 export { createAction } from './actions'
-export { ActionsUnion, ActionsOfType } from './types'
+export { type ActionsUnion, type ActionsOfType, type Action } from './types'
 export { ofType } from './rx-operators'
