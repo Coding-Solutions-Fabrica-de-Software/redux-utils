@@ -1,9 +1,12 @@
 {
-  "name": "redux-utils",
+  "name": "@coding_solutions/redux-utils",
   "version": "1.0.0",
   "description": "Redux Utils projects",
   "main": "index.js",
-  "repository": "https://github.com/Coding-Solutions-Fabrica-de-Software/redux-utils.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coding-Solutions-Fabrica-de-Software/redux-utils.git"
+  },
   "author": "Mateus Schenato <mateus@codingsolutions.com.br>",
   "license": "MIT",
   "private": false,
@@ -12,5 +15,15 @@
   },
   "peerDependencies": {
     "rxjs": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/Coding-Solutions-Fabrica-de-Software/redux-utils/issues"
+  },
+  "homepage": "https://github.com/Coding-Solutions-Fabrica-de-Software/redux-utils#readme",
+  "dependencies": {
+    "tslib": "^2.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
