@@ -4,6 +4,12 @@
 
 # Getting started
 
+First install this libraries:
+
+```prompt
+npm i @coding_solutions/redux-utils react-redux @reduxjs/toolkit redux-saga 
+```
+
 Let's demonstrate simple usage with list people example:
 
 1.  Create Type-safe Redux Actions
