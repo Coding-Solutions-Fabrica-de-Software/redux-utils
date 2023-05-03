@@ -1,4 +1,9 @@
 import { AnyFunction, StringMap } from '../types'
+import { OfflineMetadata } from "@redux-offline/redux-offline/lib/types";
+
+export interface OfflineActionObject {
+    offline: OfflineMetadata;
+}
 
 /**
  * Action can exists only in 2 shapes. type only or type with payload
@@ -6,6 +11,13 @@ import { AnyFunction, StringMap } from '../types'
 export type Action<T extends string = string, P = void> = P extends void
     ? Readonly<{ type: T }>
     : Readonly<{ type: T; payload: P }>
+
+export type OfflineAction<
+    T extends string = string,
+    P = void,
+    M = OfflineActionObject
+> = Readonly<{ type: T; payload: P; meta: M }>;
+
 
 /**
  * Get Actions types union from Action creators object.
