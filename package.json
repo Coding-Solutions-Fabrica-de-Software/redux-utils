@@ -1,6 +1,6 @@
 {
   "name": "@coding_solutions/redux-utils",
-  "version": "offline",
+  "version": "1.1.4-offline",
   "description": "Redux Utils projects",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
